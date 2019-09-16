@@ -4,7 +4,8 @@ Dr. Yoder
 
 Steps to play game:
 
-1. Run program
+0. Download Program
+1. Run program in terminal with "python3 etch-a-sketch.py"
 2. Enter height of the board into console
 3. Enter width of the board tnto console
 4. The board will no appear on the screen
