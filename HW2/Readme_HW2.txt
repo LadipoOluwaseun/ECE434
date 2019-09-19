@@ -5,7 +5,7 @@ Dr. Yoder
 Shell Script
 1.	The maximum voltage is around 3.348 V and the minimum voltage is 0 V
 2.	The mean pierod is around 237.5 ms
-3.	It are about 237 - 100 = 137 ms off of the expected value	
+3.	It is about 237 - 100 = 137 ms off of the expected value	
 4.	The pierod is not very accurate as the beagleboard is not intended for this use along with the program being run through software providing overhead
 5.	After Running Htop I can see I am using about 6 % of my CPU. There is a very high variation
 6.	See Table
@@ -55,5 +55,5 @@ Actual Speed (ms)	200		100		21		11		.5		.47
 
 C program
 Input Speed (ms)	100		50		10		5		1		0.5
-CPU Usage %			10		15		40		60		60		60
-Actual Speed (ms)	0.4		0.4		0.4		0.4		0.4		0.4
+CPU Usage %			52		60		61		69		73		N/A
+Actual Speed (ms)	0.49	0.38	.31		.28		.27		N/A
