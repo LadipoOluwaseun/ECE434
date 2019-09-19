@@ -12,3 +12,13 @@ Steps to play game:
 5. Use arrow keys to  make Xs appear on screen 
 6. Press escape to leave the game
 7. Have fun :)
+
+
+## Prof. Yoder's comments
+
+Please name the directory 'hw01'.  Name the readme 'README.md'.
+Answer questions 1-6.
+
+Please resubmit
+
+Grade:  10/10
