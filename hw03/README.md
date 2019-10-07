@@ -11,3 +11,9 @@ In this file included two files
 
 	Runs code that utilizes the two temperature sensors and averages the output from these two sensors in order to print the output in the terminal of the host machine.
 	 
+## Prof. Yoder's comments
+
+Late, but it's done..
+
+Grade:  8/10
+=======
