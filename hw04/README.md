@@ -4,4 +4,13 @@ This project includes
 
 1. LEDtoggle.c 
 
-	This file was created to operate an led lightwith the use of nmap and gpio manipulation.
+	This file was created to operate an led light with the use of nmap and gpio manipulation.
+
+## Prof. Yoder's comments
+
+Good start.  How fast would it toggle?
+Good to see you LCD display working. More points once you've documented it.
+
+
+Late: -2
+Grade:  2/10
