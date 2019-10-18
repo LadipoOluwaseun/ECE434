@@ -28,24 +28,37 @@
 int main() {
 
 	//instantiate gpio inputs and outputs
+
+	//Set GPIO address 1
 	volatile void *gpio_addr;
+
+	//Establish Data inputs and outputs
 	volatile unsigned int *gpio_setdataout_addr;
 	volatile unsigned int *gpio_cleardataout_addr;
 	volatile unsigned int *gpio_datain_addr;
 
+	//Set GPIO address 2
 	volatile void *gpio_addr2;
+
+	//Establish Data inputs and outputs
 	volatile unsigned int *gpio_setdataout_addr2;
 	volatile unsigned int *gpio_cleardataout_addr2;
 	volatile unsigned int *gpio_datain_addr2;
 
+
+	//Establish GPIO using nmap function
 	int fd = open("/dev/mem", O_RDWR);
+
+	//map memory to addresses
 	gpio_addr = mmap(0, GPIO1_SIZE, PROT_READ | PROT_WRITE, MAP_SHARED, fd, GPIO1_START_ADDR);
 	gpio_addr2 = mmap(0, GPIO1_SIZE, PROT_READ | PROT_WRITE, MAP_SHARED, fd, GPIO2_START_ADDR);
 
+	//Establish GPIO output stream for address 1
 	gpio_setdataout_addr = gpio_addr + GPIO_SETDATAOUT;
 	gpio_cleardataout_addr = gpio_addr + GPIO_CLEARDATAOUT;
 	gpio_datain_addr = gpio_addr + GPIO_DATAIN;
 
+	//Establish GPIO output stream for address 2
 	gpio_setdataout_addr2 = gpio_addr + GPIO_SETDATAOUT;
 	gpio_cleardataout_addr2 = gpio_addr + GPIO_CLEARDATAOUT;
 	gpio_datain_addr2 = gpio_addr + GPIO_DATAIN;
@@ -66,8 +79,10 @@ int main() {
 	    	gpio_cleardataout_addr = USR2;
 	    }
 	    
+	    //sleep
 	    usleep(10000);
 	}
+	//unmap memory form adress to free up space
 	munmap ((void *) gpio_addr, GPIO1_SIZE);
 	munmap ((void *) gpio_addr, GPIO2_SIZE);
 	close(fd);
