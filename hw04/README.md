@@ -5,7 +5,8 @@ This project includes
 1. LEDtoggle.c 
 
 	This file was created to operate an led light with the use of nmap and gpio manipulation.
-
+	The fastest time I could toggle was around 400 ns. This is much faster than the fastest I could get in hw02 eaelier in this quarter.
+	
 2. Tux Files
 	
 	This file contains different rotated and unrotated pictures of Tux
