@@ -14,6 +14,7 @@ This project includes
 3. NameFile.jpg
 	
 	This file contains a picture of text that has my name and a special message
+
 ## Prof. Yoder's comments
 
 Good start.  How fast would it toggle?
@@ -22,3 +23,8 @@ Good to see you LCD display working. More points once you've documented it.
 
 Late: -2
 Grade:  2/10
+
+## Prof. Yoder's new comments
+Thanks for the updated pictures....
+
+Grad:  8/10
