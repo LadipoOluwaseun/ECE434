@@ -4,6 +4,7 @@
 
 	This file includes the file used to navigate the internet file used for the leds program in conjunction with the slider in the blynk app
 
+---
 	Console output from javascript Program output on the bone
 	    ___  __          __
 	   / _ )/ /_ _____  / /__
@@ -34,3 +35,4 @@
 	V1: 0.5454545454545454
 	V1: 0.6070381231671554
 	V1: 0.5317693059628543
+---
