@@ -25,3 +25,9 @@ I don't see the plots
 Grade:  3/10
 
 I don't see your project wiki
+
+## Prof. Yoder's comments
+Many of your plot look the same
+
+Late: -1
+Grade: 8/10
