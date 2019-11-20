@@ -11,3 +11,10 @@
 3. Google doc Link
 
 	https://docs.google.com/spreadsheets/d/1Kn2tWBKrMfJ1iV35eEoU-SCiyUCdOO0jliO6KN9FXaU/edit#gid=0
+	
+## Prof. Yoder's comments
+
+Looks good.  Waiting for access to your sheet. -2
+
+No ThingSpeak:  -2
+Grade:  6/10

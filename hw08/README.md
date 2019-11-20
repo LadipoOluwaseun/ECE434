@@ -35,3 +35,10 @@
 
 	I from what I measured there is a delay of around 40 ns from an input to an output signal.
 
+## Prof. Yoder's comments
+
+Over all looks good.
+You shouldn't have jitter when using the R30 for output.
+
+Late: -1
+Grade:  9/10

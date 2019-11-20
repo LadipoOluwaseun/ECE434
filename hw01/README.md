@@ -28,3 +28,11 @@ Answer questions 1-6.
 Please resubmit
 
 Grade:  0/10
+
+## Prof. Yoder's new comments
+
+Thanks for finishing it.
+
+Late:  -2
+
+Grade:  8/10

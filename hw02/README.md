@@ -66,3 +66,10 @@ Please name the directory 'hw02'.  Name the readme 'README.md'.
 Please resubmit
 
 Grade:  5/10
+
+## Prof. Yoder's new comments
+Thanks...
+
+
+Late: -2
+Grade:  8/10
